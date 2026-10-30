@@ -1,0 +1,78 @@
+{
+  "train": [
+    {
+      "id": "train_01",
+      "text": "Elon Musk founded SpaceX in California.",
+      "tokens": ["Elon", "Musk", "founded", "SpaceX", "in", "California", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_02",
+      "text": "Satya Nadella leads Microsoft from Seattle.",
+      "tokens": ["Satya", "Nadella", "leads", "Microsoft", "from", "Seattle", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_03",
+      "text": "Sundar Pichai visited Google headquarters in London.",
+      "tokens": ["Sundar", "Pichai", "visited", "Google", "headquarters", "in", "London", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_04",
+      "text": "Tim Cook announced Apple products in New York.",
+      "tokens": ["Tim", "Cook", "announced", "Apple", "products", "in", "New", "York", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "O", "B-LOC", "I-LOC", "O"]
+    },
+    {
+      "id": "train_05",
+      "text": "Jeff Bezos established Amazon in Washington.",
+      "tokens": ["Jeff", "Bezos", "established", "Amazon", "in", "Washington", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_06",
+      "text": "Marie Curie conducted groundbreaking research at Sorbonne University in Paris.",
+      "tokens": ["Marie", "Curie", "conducted", "groundbreaking", "research", "at", "Sorbonne", "University", "in", "Paris", "."],
+      "tags": ["B-PER", "I-PER", "O", "O", "O", "O", "B-ORG", "I-ORG", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_07",
+      "text": "Mark Zuckerberg manages Meta across North America.",
+      "tokens": ["Mark", "Zuckerberg", "manages", "Meta", "across", "North", "America", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "B-LOC", "I-LOC", "O"]
+    },
+    {
+      "id": "train_08",
+      "text": "Sam Altman directs OpenAI in San Francisco.",
+      "tokens": ["Sam", "Altman", "directs", "OpenAI", "in", "San", "Francisco", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "B-LOC", "I-LOC", "O"]
+    },
+    {
+      "id": "train_09",
+      "text": "Jensen Huang unveiled Nvidia chips in Taiwan.",
+      "tokens": ["Jensen", "Huang", "unveiled", "Nvidia", "chips", "in", "Taiwan", "."],
+      "tags": ["B-PER", "I-PER", "O", "B-ORG", "O", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "train_10",
+      "text": "Demis Hassabis develops artificial intelligence for DeepMind in Cambridge.",
+      "tokens": ["Demis", "Hassabis", "develops", "artificial", "intelligence", "for", "DeepMind", "in", "Cambridge", "."],
+      "tags": ["B-PER", "I-PER", "O", "O", "O", "O", "B-ORG", "O", "B-LOC", "O"]
+    }
+  ],
+  "test": [
+    {
+      "id": "test_01",
+      "text": "Sundar Pichai discussed technology with Tesla in California.",
+      "tokens": ["Sundar", "Pichai", "discussed", "technology", "with", "Tesla", "in", "California", "."],
+      "tags": ["B-PER", "I-PER", "O", "O", "O", "B-ORG", "O", "B-LOC", "O"]
+    },
+    {
+      "id": "test_02",
+      "text": "Dr. Kalam delivered an inspiring lecture at Oxford University in England.",
+      "tokens": ["Dr", ".", "Kalam", "delivered", "an", "inspiring", "lecture", "at", "Oxford", "University", "in", "England", "."],
+      "tags": ["O", "O", "B-PER", "O", "O", "O", "O", "O", "B-ORG", "I-ORG", "O", "B-LOC", "O"]
+    }
+  ]
+}

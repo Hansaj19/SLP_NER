@@ -1,0 +1,10 @@
+streamlit
+torch
+assemblyai
+seqeval
+scikit-learn
+numpy
+pandas
+python-dotenv
+tabulate
+
