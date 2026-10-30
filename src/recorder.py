@@ -9,7 +9,10 @@ import wave
 import json
 import time
 from typing import Dict, Any, List
-import pyaudio
+try:
+    import pyaudio
+except ImportError:
+    pyaudio = None
 import assemblyai as aai
 from dotenv import load_dotenv
 
@@ -24,7 +27,7 @@ aai.settings.api_key = API_KEY
 SAMPLE_RATE = 16000
 CHANNELS = 1
 FRAMES_PER_BUFFER = 800  # 50ms chunk
-AUDIO_FORMAT = pyaudio.paInt16
+AUDIO_FORMAT = pyaudio.paInt16 if pyaudio else None
 
 def record_audio_clip(output_wav_path: str, duration_seconds: int = 5) -> str:
     """

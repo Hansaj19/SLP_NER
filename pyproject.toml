@@ -5,12 +5,10 @@ requires-python = ">=3.13"
 dependencies = [
     "assemblyai>=1.8.2",
     "numpy>=2.5.4",
-    "pyaudio>=0.2.14",
     "python-dotenv>=1.2.4",
     "scikit-learn>=1.9.1",
     "seqeval>=1.2.2",
     "streamlit>=1.66.1",
     "tabulate>=0.10.0",
     "torch>=2.15.0",
-    "websocket-client>=1.9.2",
 ]
